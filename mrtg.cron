@@ -1,1 +1,3 @@
 10,40 *	* * *	root	if [ -x /usr/bin/mrtg ]; then /usr/bin/mrtg /opt/ftn/mrtgbbbs.cfg; fi
+
+10,40 *	* * *	/usr/bin/mrtg --user bbbs --group www-data --lock-file mrtgbbbs.lck /opt/bbbs/work/mrtgbbbs.cfg >> /opt/bbbs/logs/mrtgbbbs.log 2>&1
