@@ -1,7 +1,7 @@
-ToDo   mrtgbbbs.pl v1.0
+ToDo   mrtgbbbs.pl v1.1
 -----
 
-- add debug parameter (using getopt module)
+- add debug parameter (using getopt module?)
 
 - add debugging code
 
