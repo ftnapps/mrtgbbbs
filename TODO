@@ -1,9 +1,9 @@
-ToDo   mrtgbbbs.pl
+ToDo   mrtgbbbs.pl v1.0
 -----
 
-- add debug parameter using (getopt module)
+- add debug parameter (using getopt module)
 
-- add debuging code
+- add debugging code
 
 - add code to allow for blank return values, such as 
  when BBBS is not running or is blocked from responding.
