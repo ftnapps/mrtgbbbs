@@ -1,4 +1,4 @@
-mrtgbbbs.pl
+mrtgbbbs.pl v1.0
 
 Copyright (c) 2000-2001 Robert James Clay.  All Rights Reserved.
 This is free software;  you can redistribute it and/or
@@ -10,6 +10,15 @@ mrtg created pages for BBBS related info.
 
 Note that the development for this has been done on a Debian Linux v2.2
 system, running the Linux version of BBBS.  
+
+
+The parameter to use for bbbsd is "mrtgd:16425", as in the following 
+example on my linux system (check your manual for any differences
+if you are running a different OS):
+
+/opt/bbbs/bbbsd 1 7 smtpd:1025  mrtgd:16425  "fork" "quiet" "uid:bbbs" &
+
+
 
 ==================
 
