@@ -1,10 +1,10 @@
-mrtgbbbs.pl v1.0
+mrtgbbbs.pl v1.1 beta
 
-Copyright (c) 2000-2001 Robert James Clay.  All Rights Reserved.
+Copyright (c) 2000-2002 Robert James Clay.  All Rights Reserved.
 This is free software;  you can redistribute it and/or
 modify it under the same terms as Perl itself.
 
-Perl scripts for reading the mrtg info from the BBBS standard port.  
+Perl script for reading the mrtg info from the BBBS standard port.  
 To be run by mrtg (see example script & config info) to update 
 mrtg created pages for BBBS related info.
 
@@ -28,7 +28,7 @@ Files
 mrtgbbbs.pl	Perl script that reads the mrtg info from the BBBS standard 
 		port
 
-mrtgbbbs.cfg	A mrtg config file for useing the mrtgbbbs.pl script
+mrtgbbbs.cfg	An example mrtg config file for useing the mrtgbbbs.pl script
 
 mrtg.cron	A cron config file for running the mrtgbbbs.pl script
 		periodically.  On my Debian v2.2 system, I have this
@@ -45,5 +45,5 @@ TODO		What needs to be worked on
 Jame
     Robert J. Clay, jame@users.sf.net
     http://ftnpl.sourceforge.net
-    Sysop, 1:120/544 (1-810-791-1973), 1:120/545
+    Sysop, 1:120/544@fidonet (1-586-791-1973)
     
