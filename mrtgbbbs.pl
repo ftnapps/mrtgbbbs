@@ -2,7 +2,7 @@
 
 # mrtgbbbs.pl
 #
-# version 1.0  - 13 May 2000 - R.J. Clay
+# version 1.1 -  - R.J. Clay
 
 use IO::Socket;
 
