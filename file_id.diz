@@ -1,0 +1,4 @@
+mrtgbbbs.pl v1.0  
+Perl script for reading the mrtg info
+from the BBBS standard port.
+See README for more info.
