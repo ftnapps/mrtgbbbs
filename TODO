@@ -1,0 +1,7 @@
+ToDo   mrtgbbbs.pl
+-----
+
+- add code to allow for blank return values, such as 
+ when BBBS is not running or is blocked from responding.
+
+

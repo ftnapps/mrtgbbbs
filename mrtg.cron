@@ -1,0 +1,1 @@
+10,40 *	* * *	root	if [ -x /usr/bin/mrtg ]; then /usr/bin/mrtg /etc/mrtgbbbs.cfg; fi
