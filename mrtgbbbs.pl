@@ -2,7 +2,11 @@
 
 # mrtgbbbs.pl
 #
-# version 1.1 -  - R.J. Clay
+# version 1.1 
+# Copyright (c) 2000-2004 Robert James Clay.  All Rights Reserved.
+# This is free software;  you can redistribute it and/or
+# modify it under the same terms as Perl itself.
+
 
 use IO::Socket;
 
