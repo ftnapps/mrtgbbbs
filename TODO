@@ -1,11 +1,25 @@
-ToDo   mrtgbbbs.pl 
------
+mrtgbbbs ToDo  
+--------------
 
-- add debug parameter (using getopt module?)
+mrtgbbbs.pl
+- Change to useing Getopt module for command line parameters.
+- Add debug parameter & debugging code
+- Add code to allow for blank return values, such as when BBBS is not
+ running or is blocked from responding.
+- Use POD to add documentation to script?
 
-- add debugging code
+README
+- Add better note about the info it is getting from bbbs?  Also refer
+ to the actual section in the BBBS documentation where it is discussed.
+ And just what mrtg is?
+- Add a note where discussions about the script can take place, like the
+ BBBBS_ENGLISH echo.	
+- If/when make Git repository public;  add note about where that is, &
+ how it is tied to the SVN repository.
 
-- add code to allow for blank return values, such as 
- when BBBS is not running or is blocked from responding.
+mrtgbbbs.cfg
+- Anywhere being used;  change rocasa.org to rocasa.us
 
+
+- Add an explicit License file?
 

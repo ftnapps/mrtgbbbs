@@ -1,5 +1,13 @@
 
-
+14 Jul 2010
+    - mrtgbbbs.pl:  Add explicitly using strictures & warnings.  Move
+     version number in comment line to $VERSION variable.  Clean up
+     formatting, layout, and readibility of the script.     
+    - README:  Removed specific Debian version.  Removed the phone number
+     reference.  Corrected the node number reference.  Corrected the name
+     and email address.  Added homepage, code repository, and the files
+     availability information.
+    
 13 Jul 2010
     - Created & included this Changes file
     - Update mrtgbbbs copyright years to 2010
