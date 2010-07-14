@@ -1,46 +1,48 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 
 # mrtgbbbs.pl
 #
-# version 1.2 
 # Copyright (c) 2000-2010 Robert James Clay.  All Rights Reserved.
 # This is free software;  you can redistribute it and/or
 # modify it under the same terms as Perl itself.
 
-
+use warnings;
+use strict;
 use IO::Socket;
+
+our $VERSION = 1.2;
 
 #$DEBUG = 0;
 
-if ($ARGV[0]) {
-   $host = $ARGV[0] ;
-   $type = $ARGV[1] ;
-} else {
-   print STDERR "Usage: $0 <hostname> <io|user>\n" ;
-   exit 1 ;
+if ( $ARGV[0] ) {
+    $host = $ARGV[0];
+    $type = $ARGV[1];
 }
+else {
+    print {*STDERR} "Usage: $0 <hostname> <io|user>\n";
+    exit 1;
+}
+
 #
-$socket = IO::Socket::INET->new
-(
+$socket = IO::Socket::INET->new(
     PeerAddr => $host,
-    PeerPort => 16425,  # standard BBBS port
-    Proto    => "tcp",
+    PeerPort => 16_425,        # standard BBBS port
+    Proto    => 'tcp',
     Type     => SOCK_STREAM
 ) or die "Could not open port.\n";
 
-print $socket "$type\n";
+print {$socket} "$type\n";
 
-$first = <$socket>;
+$first  = <$socket>;
 $second = <$socket>;
-$time = <$socket>;
+$time   = <$socket>;
 
-close($socket);
- 
+close $socket or die "Unable to close socket.\n";
+
 print "$first";
 print "$second";
 print "$time\n";
 
-print "";
+print q{};
 
-exit; # We're done!
-
+exit;    # We're done!
