@@ -8,7 +8,14 @@ Perl script for reading the mrtg info from the BBBS standard port.
 To be run by mrtg (see example script & config info) to update 
 mrtg created pages for BBBS related info.
 
-Note that the development for this has been done on a Debian Linux v2.2
+It is hosted at the 'Perl for Fidonet (FTN) Systems' project at SourceForge,
+http://ftnpl.sourceforge.net.  The main code repository for it is browsable at 
+http://ftnpl.svn.sourceforge.net/viewvc/ftnpl/trunk/scripts/BBBS/mrtgbbbs/.
+Archives of it can be found in the Project file downloads section.  They can
+also be found on any FTN system that carries the BBBSUTIL File Echo, which is
+distributed via the Filegate (www.filegate.net).
+
+Note that the development for this has been done on a Debian Linux
 system, running the Linux version of BBBS.  
 
 The parameter to use for bbbsd is "mrtgd:16425", as in the following 
@@ -47,7 +54,8 @@ TODO		What needs to be worked on
 ========================
 
 Jame
-    Robert J. Clay, jame@users.sf.net
+    Robert James Clay
+    jame@users.sourceforge.net
     http://ftnpl.sourceforge.net
-    Sysop, 1:120/544@fidonet (1-586-791-1973)
+    Sysop, 1:120/546@fidonet
     
