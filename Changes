@@ -1,0 +1,39 @@
+
+
+13 Jul 2010
+    - Created & included this Changes file
+    - Update mrtgbbbs copyright years to 2010
+    - Bump mrtgbbbs version to 1.2    
+    
+22 Mar 2004
+    - Released v1.1
+    - Remove beta references for mrtgbbbs v1.1.
+    - Explicitly note license & copyright in mrtgbbbs.pl script.
+    - Reworded cron information in README file.
+    - Version info not neccessary in TODO file;  removed it.
+    - Changed paths for files in example mrtgbbbs.cfg 
+    
+ 4 Jan 2004
+    - Updated copyright dates in files as neccessary
+
+21 Jun 2003
+    - corrected hostname in example mrtgbbbs.cfg
+    - corrected mrtg version in example mrtgbbbs.cfg
+    - Corrected Directory entry in example mrtgbbbs.cfg
+    - corrections to hostnames & work directory in example mrtgbbbs.cfg
+    - Corrected version number to 1.1
+    
+ 2 Jan 2003 
+    - Corrected year numbers to 2003
+    
+30 Dec 2001
+    - Updated file.
+    - Added 2002 to copyright statement.
+    
+25 Aug 2001
+    - Released v1.0
+    - Changed path for mrtg config file
+    - Changed WorkDir path.
+    - Added items regarding debugging
+    - Added info about an example bbbsd command line
+    - Initial import of file_id.diz file
