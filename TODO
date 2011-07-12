@@ -1,4 +1,4 @@
-mrtgbbbs ToDo  
+mrtgbbbs ToDo
 --------------
 
 mrtgbbbs.pl
@@ -11,14 +11,13 @@ mrtgbbbs.pl
 README
 - Add better note about the info it is getting from bbbs?  Also refer
  to the actual section in the BBBS documentation where it is discussed.
- And just what mrtg is?
+ And just what MRTG is?
 - Add a note where discussions about the script can take place, like the
- BBBBS_ENGLISH echo.	
-- If/when make Git repository public;  add note about where that is, &
- how it is tied to the SVN repository.
+ BBBBS_ENGLISH echo?
 
 mrtgbbbs.cfg
-- Anywhere being used;  change rocasa.org to rocasa.us
+- n/a
+
 
 
 - Add an explicit License file?
