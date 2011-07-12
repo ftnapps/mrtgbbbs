@@ -10,7 +10,7 @@ use warnings;
 use strict;
 use IO::Socket;
 
-our $VERSION = 1.2;
+our $VERSION = 1.3;
 
 #$DEBUG = 0;
 
