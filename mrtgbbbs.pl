@@ -12,7 +12,9 @@ use IO::Socket;
 
 our $VERSION = 1.3;
 
-#$DEBUG = 0;
+my ($host, $type, $socket, $first, $second, $time );
+
+#my $DEBUG = 0;
 
 if ( $ARGV[0] ) {
     $host = $ARGV[0];
