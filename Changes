@@ -1,26 +1,21 @@
 12 Jul 2011
-    - Release mrtgbbbs.pl version v1.3.
-    - TODO file as of 12 July 2011.
-    - Update files copyright information.
-    - Use example.org for example domain names.
-    - Explicitly set scope of variables in mrtgbbbs.pl.
-    - Rewrite README, also adding note about GIT repository.
+    - Bump mrtgbbbs version to 1.3
 
 14 Jul 2010
     - Released as version v1.2
     - mrtgbbbs.pl:  Add explicitly using strictures & warnings.  Move
      version number in comment line to $VERSION variable.  Clean up
-     formatting, layout, and readibility of the script.
+     formatting, layout, and readibility of the script.     
     - README:  Removed specific Debian version.  Removed the phone number
      reference.  Corrected the node number reference.  Corrected the name
      and email address.  Added homepage, code repository, and the files
      availability information.
-
+    
 13 Jul 2010
     - Created & included this Changes file
     - Update mrtgbbbs copyright years to 2010
-    - Bump mrtgbbbs version to 1.2
-
+    - Bump mrtgbbbs version to 1.2    
+    
 22 Mar 2004
     - Released v1.1
     - Remove beta references for mrtgbbbs v1.1.
@@ -28,7 +23,7 @@
     - Reworded cron information in README file.
     - Version info not neccessary in TODO file;  removed it.
     - Changed paths for files in example mrtgbbbs.cfg 
-
+    
  4 Jan 2004
     - Updated copyright dates in files as neccessary
 
@@ -38,14 +33,14 @@
     - Corrected Directory entry in example mrtgbbbs.cfg
     - corrections to hostnames & work directory in example mrtgbbbs.cfg
     - Corrected version number to 1.1
-
+    
  2 Jan 2003 
     - Corrected year numbers to 2003
-
+    
 30 Dec 2001
     - Updated file.
     - Added 2002 to copyright statement.
-
+    
 25 Aug 2001
     - Released v1.0
     - Changed path for mrtg config file
