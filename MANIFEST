@@ -1,0 +1,14 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+bin/mrtgbbbs.pl
+doc/mrtgbbbs.cfg
+doc/mrtg.cron
+doc/stats.html
+t/00-load.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
+TODO
+
