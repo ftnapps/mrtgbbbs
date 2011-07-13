@@ -11,8 +11,12 @@ MRTG created pages for BBBS related information.
 It is hosted at the 'Perl for Fidonet (FTN) Systems' project at SourceForge,
 http://ftnpl.sourceforge.net.  The main code repository for it is browsable at 
 http://ftnpl.svn.sourceforge.net/viewvc/ftnpl/trunk/scripts/BBBS/mrtgbbbs/. A
-GIT mirror of the mrtgbbbs trunk in SVN is available at the following
-site:  https://github.com/bbbsdeb/mrtgbbbs.
+GIT mirror of the mrtgbbbs trunk in SVN is available at the following site:
+https://github.com/bbbsdeb/mrtgbbbs.
+
+Although support for it can be discussed in the ftnpl-develop mailing list at
+Sourceforge, and it can also be discussed in the BBBS.ENGLISH echo;  support
+for it is best done at the http://github.com/bbbsdeb/mrtgbbbs/issues site.
 
 Archives of it can be found in the Project file downloads section.  They can
 also be found on any FTN system that carries the BBBSUTIL File Echo, which is
