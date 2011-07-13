@@ -6,7 +6,7 @@ WriteMakefile(
     NAME                => 'mrtgbbbs',
     AUTHOR              => q{Robert James Clay <jame@rocasa.us>},
     VERSION_FROM        => 'bin/mrtgbbbs.pl',
-    ABSTRACT_FROM       => 'bin/mrtgbbbs.pl',
+    ABSTRACT            => 'Perl script for reading the MRTG information from the BBBS standard port.',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
       : ()),
