@@ -1,24 +1,38 @@
 mrtgbbbs ToDo
 --------------
 
+- Add an explicit License file, so as to apply it to all files and not
+  just in files where it already explicitly noted?
+
+- Add information about installing at least the mrtgbbbs.pl script itself
+  into a non standard directory, like for BBBS in /opt/bbbs/scripts?
+
 mrtgbbbs.pl
-- Change to useing Getopt module for command line parameters.
-- Add debug parameter & debugging code
+- Change to using the BBBS::MRTG module for accessing the BBBS MRTG
+  port information.
+- Add error checking for at least the type variable, which should be 
+  either "io" or "user".
+- Add option to define the port to use;  if option not defined, then
+  default to the standard port, 16425.  Perhaps use an optional 3rd 
+  positional parameter?  (First two being required.)
+- Put the display of the usage information into a subroutine, so it
+  can be used in more than one place in the script.
+- Change to using Getopt module for the command line parameters?
+- Add debug parameter & debugging code?
 - Add code to allow for blank return values, such as when BBBS is not
- running or is blocked from responding.
-- Use POD to add documentation to script?
+  running or is blocked from responding.
+- Use POD to add documentation to script: Add better note about the
+  information it is getting from BBBS.  Also refer to the actual section
+  in the BBBS documentation where it is discussed. And just what MRTG is?
+- Move example documenation files into a pod file.
 
 README
-- Add better note about the info it is getting from bbbs?  Also refer
- to the actual section in the BBBS documentation where it is discussed.
- And just what MRTG is?
-- Add a note where discussions about the script can take place, like the
- BBBBS_ENGLISH echo?
+- Move the mrtgbbbs operational documentation into the documenation 
+  in the script itself.
 
-mrtgbbbs.cfg
-- n/a
-
-
-
-- Add an explicit License file?
+Makefile.PL
+- After adding POD to mrtgbbbs.pl script, update Makefile.PL to instead get
+  the abstract from there.
+- Create a zip archive instead of a tar.gz archive for 'make dist' or have
+  two targets;  one for zip & one for tar.gz, and one of those as default.
 
